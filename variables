@@ -1,0 +1,26 @@
+package co.edu.virgilio.prueba1;
+
+public class Prueba1 {
+    public static void main (String[] args){
+        System.out.println("Hola mundo");
+        int edad;
+        edad = 45;
+        edad = 46;
+        byte pisos = 15;
+        short edadPadre;
+        long kilometros;
+        float nota = 4.5f;
+        double temperatura = 45.7;
+        char sexo = 'f';
+        String nombre = "Juan";
+        boolean encendido = true;
+        encendido = false;
+        temperatura = Math.abs(-45.7);
+        temperatura = Math.PI;
+        System.out.println(temperatura);
+        System.out.println(nombre);
+        
+        System.out.println(edad);
+        System.out.println(pisos);
+    }
+}
